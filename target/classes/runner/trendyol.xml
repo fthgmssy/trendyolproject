@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Trendyol Project">
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
+
+    <test name="Faba INT Trendyol Project Test">
+        <classes>
+            <class name="trendyolproject.testcases.Trendyolproject" />
+        </classes>
+    </test> <!-- Test -->
+
+
+</suite> <!-- Suite -->
